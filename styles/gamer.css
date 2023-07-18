@@ -2,27 +2,24 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.section-title {
-    font-size: 2.3rem;
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal; 
-} 
-nav>ul{
+.icon{
     display: flex;
-    
 }
-nav{
+nav .menu ul div{
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-   
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    height: 58px;
+    align-items: center;
+    justify-content: center;
+
 }
-nav li a {
-    justify-content: space-between;
+nav .menu ul{
     align-items: center;
 }
-.nav-title {
-    color: #FF42A5;
+nav .menu ul li{
+    margin: 0rem 1rem;
+    text-align: center;
+    font-size: 16px;
 }
