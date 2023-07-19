@@ -12,7 +12,7 @@
     box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.05);
   }
   
-  nav .logo {
+  nav .logo, .logo-2 {
     display: flex;
     align-items: center;
   }
@@ -167,7 +167,7 @@
   
   /* seconddiv */
   
-  .seconddiv {
+  .seconddiv{
     /* width: 80%; */
     margin-top: 6rem;
   }
@@ -379,5 +379,38 @@
     inset: 0;
     left: 30%;
     top: 50%;
-  }   
+  } 
+
+    
+.footer,.logo-2{
+    font-weight: 400;
+    color: #fff;
+    background-color: #0B0223; ;
+    
+    
+}
+.foter{
+    padding: 40px 0;
+    background-color: #0B0223; ;
+   
+    
+}
+.foter .social{
+    text-align: center;
+    padding-bottom: 25px;
+    
+    
+    
+}
+.foter .ul .a{
+    text-decoration: none;
+
+
+}
+.footer .ul .li{
+    display: inline-block;
+}
+
+
+
 
