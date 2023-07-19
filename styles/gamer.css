@@ -2,8 +2,31 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
-.icon{
+nav{
     display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    margin-bottom: 15px;
+    box-shadow: 0px 15px 10px -15px rgba(0, 0, 0, 0.05);
+}
+nav .icon{
+    display: flex;
+    align-items: center;
+}
+nav .icon img,
+nav .logo h1{
+    margin: 0rem 0.5rem;
+} 
+nav.icon h1{
+    text-align: center;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+nav .icon img{
+    height: 40px;
+    width: auto;
 }
 nav .menu ul div{
     display: flex;
@@ -17,9 +40,44 @@ nav .menu ul div{
 }
 nav .menu ul{
     align-items: center;
+    list-style: none;
+    display: flex;
 }
 nav .menu ul li{
     margin: 0rem 1rem;
     text-align: center;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+nav .menu ul div p,
+nav .menu ul div img{
+    margin: 0rem 0.5rem;
+}
+nav .menu ul div img{
+    height: 24px;
+}
+.online-games {
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+#o-g-i {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#o-g-i-d {
+    text-align: center;
+    font-size: 1rem;
+    width: 40%;
+    margin: 20px auto;
+}
+.images img {
+    margin: 10px 16px;
+    width: 20%;
 }
