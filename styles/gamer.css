@@ -83,6 +83,7 @@ nav .menu ul div img{
 .images img {
     margin: 10px 16px;
     width: 20%;
+   
 }
 .goat{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -98,4 +99,76 @@ nav .menu ul div img{
 .title{
     margin: 0rem 12rem;
 
+}
+.images{
+    display: contents;
+}
+.w-r-g{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-light-purple{
+    color: #534C64;
+    
+    text-align: right;
+    
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+.btn-primary {
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.btn-secondary{
+    border-radius: 48px;
+    background:#4EC5F7;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.teams-container{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem
+
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.w-r-g{
+    text-align: right;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
