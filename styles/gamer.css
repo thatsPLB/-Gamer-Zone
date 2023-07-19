@@ -382,33 +382,57 @@
   } 
 
     
-.footer,.logo-2{
+.foter,.logo-2{
     font-weight: 400;
     color: #fff;
     background-color: #0B0223; ;
+    padding: 40px 0;
     
     
 }
+.logo-2{
+    text-align: center;
+}
+
 .foter{
-    padding: 40px 0;
-    background-color: #0B0223; ;
+   
+    /* background-color: #0B0223; ; */
    
     
 }
 .foter .social{
     text-align: center;
     padding-bottom: 25px;
-    
-    
-    
 }
-.foter .ul .a{
+
+.foter .ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    list-style: 1.6;
+    margin-bottom: 0;
+
+
+}
+.foter .ul a{
+    color: #fff;
     text-decoration: none;
-
-
+    opacity: 0.8;
 }
-.footer .ul .li{
-    display: inline-block;
+.list li{
+    display: inline;
+    padding: 0 15px;
+    list-style: unset;
+    text-align: center;
+
+   
+}
+.copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 16px ;
+    color: rgba(255, 255, 255, 0.60);
 }
 
 
