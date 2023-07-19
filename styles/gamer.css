@@ -1,4 +1,7 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
@@ -80,4 +83,19 @@ nav .menu ul div img{
 .images img {
     margin: 10px 16px;
     width: 20%;
+}
+.goat{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 0rem 12rem;
+}
+.title{
+    margin: 0rem 12rem;
+
 }
