@@ -423,6 +423,37 @@ nav .navright ul div img {
   left: 30%;
   top: 50%;
 }
+.fivediv .fivepic,.fivepic-2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fivediv .infobtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem .7rem;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.fivediv .infobtn img{
+  margin-right: .5rem;
+}
+.fivediv .infobtn:hover {
+  border-color: #f948b2;
+  border-radius: 50px;
+}
+
+.fivediv .infobtn:hover h3 {
+  color: #f948b2;
+}
+.fivediv{
+  
+  margin: auto;
+  width: 80%;
+  gap: 60px;
+}
 
 footer {
   display: flex;
